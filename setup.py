@@ -4,18 +4,18 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='django-daterangefilter',
-    version='1.0.0',
+    name='dj-daterangefilter',
+    version='0.1.1',
     license='MIT',
     author='Andrey Novikov',
     author_email='novikov@gmail.com',
     description='Date range filter for Django admin',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/andreynovikov/django-daterangefilter/tree/master',
+    url='https://github.com/mahfouzalsheikh/dj-daterangefilter/tree/master',
     project_urls={
-        'Source': 'https://github.com/andreynovikov/django-daterangefilter/',
-        'Tracker': 'https://github.com/andreynovikov/django-daterangefilter/issues'
+        'Source': 'https://github.com/mahfouzalsheikh/dj-daterangefilter/',
+        'Tracker': 'https://github.com/mahfouzalsheikh/dj-daterangefilter/issues'
     },
     packages=setuptools.find_packages(),
     include_package_data=True,

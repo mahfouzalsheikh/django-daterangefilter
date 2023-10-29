@@ -1,12 +1,5 @@
 # Django admin date range filter
 
-[![Build Status](https://travis-ci.org/andreynovikov/django-daterangefilter.svg?branch=master)](https://travis-ci.org/andreynovikov/django-daterangefilter)
-[![GitHub release](https://img.shields.io/github/release/andreynovikov/django-daterangefilter.svg)](https://github.com/andreynovikov/django-daterangefilter/releases/latest)
-[![PyPI release](https://img.shields.io/pypi/v/django-daterangefilter.svg)](https://pypi.org/project/django-daterangefilter/)
-[![Python version](https://img.shields.io/pypi/pyversions/django-daterangefilter.svg)](https://pypi.org/project/django-daterangefilter/)
-[![GitHub issues](https://img.shields.io/github/issues/andreynovikov/django-daterangefilter.svg)](https://github.com/andreynovikov/django-daterangefilter/issues)
-[![Code quality](https://img.shields.io/codacy/grade/e90b9f21941a4d8c93edb4a58caa3667.svg)](https://www.codacy.com/app/novikov/django-daterangefilter)
-[![Coverage](https://img.shields.io/codacy/coverage/e90b9f21941a4d8c93edb4a58caa3667.svg)](https://www.codacy.com/app/novikov/django-daterangefilter)
 [![GitHub license](https://img.shields.io/github/license/andreynovikov/django-daterangefilter.svg)](LICENSE)
 
 Application adds three Django admin list filters: ```DateRangeFilter```, ```PastDateRangeFilter``` and ```FutureDateRangeFilter```. These filters let user filter models by date range. ```PastDateRangeFilter``` and ```FutureDateRangeFilter``` add quick selection of predefined date ranges. Filters can be applied to any model date fields. Application supports default Django admin theme and [Suit theme](https://github.com/darklow/django-suit).
@@ -20,10 +13,10 @@ Application adds three Django admin list filters: ```DateRangeFilter```, ```Past
 
 ## Installation
 
-Install ```django-daterangefilter``` using pip:
+Install ```dj-daterangefilter``` using pip:
 
 ```shell
-pip install django-daterangefilter
+pip install dj-daterangefilter
 ```
 
 Add ```daterangefilter``` to ```INSTALLED_APPS```. Example:
